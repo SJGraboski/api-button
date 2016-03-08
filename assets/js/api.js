@@ -105,20 +105,23 @@ var btnizer = {
 				/* 3: Display the info
 				 * =================== */
 				$('#gif-zone').prepend(gifBox);
-
 			}
 		})
 	},
 
+	// change image from still to animated state, and vice versa
 	picSwitcher : function(sel) {
 		// grab data of this
 		var state = sel.attr("data-state");
+
+		// if still, make animated
 		if (state === "still") {
 			console.log("gif animated");
 			var animateUrl = sel.data("animated");
 			sel.attr('src', animateUrl);
 			sel.attr("data-state", "animated");
 		}
+		// if animated, make still
 		else if (state === "animated") {
 			console.log("gif frozen")
 			var stillUrl = sel.data("still");
