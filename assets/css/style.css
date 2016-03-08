@@ -1,9 +1,67 @@
+/* Basic Rules */
+body {
+  background-image: url("../images/skulls.png");
+}
 
+h1 {
+  font-size: 42px;
+  margin-bottom: 30px;
+  border-bottom: 3px solid #000;
+  width: 195px;
+  color: #222;
+}
 
+h3 {
+  border-bottom: 2px solid #000000;
+  text-align:center;
+  color: #222;
+  font-weight: normal;
+  font-size: 26px;
+  margin-top: 39px;
+}
 
+p {
+  font-size: 16px;
+  font-style: italic;
+  color: #a2a2a2;
+}
 
+/* div and image styles */
+.gif-box {
+  float:left;
+  margin-bottom:10px;
+}
 
+.giffy {
+  padding-right: 20px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
+#side {
+  float: left;
+}
+
+.gif-button {
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+#add-it {
+  margin-bottom: 20px;
+}
+
+form {
+  margin-top: 30px;
+}
+legend {
+  margin-bottom: 10px;
+  border-bottom: 2px solid #000000;
+  text-align: center;
+  color: #222;
+  font-size: 26px;
+}
 
 
 
@@ -23,6 +81,14 @@ footer {
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 60px;
-  background-color: #f5f5f5;
+  background-color: rgba(150, 150, 150, 0.5);
   padding-top:20px;
+}
+
+footer p {
+  color: #222222;
+  font-style: normal;
+  font-size: 14px;
+  margin: 0;
+  padding-bottom: 20px;
 }
