@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Film Directors</title>
+	<!-- Meyer Reset -->
+	<link rel='stylesheet' href='assets/css/reset.css'>
+
+	<!-- Latest compiled and minified CSS & JS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+	<!-- Style Rules -->
+	<link rel='stylesheet' href='assets/css/style.css'>
+
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<h1>Fave Film Directors</h1>
+			</div>
+		</div>
+		<div class="row">
+
+			<!-- Gifs will appear in below div -->
+			<div class="col-md-7" id='gif-box'>
+				
+			</div>
+
+			<!-- Button sidebar -->
+			<div class="col-md-4 col-md-offset-1">
+
+
+				<!-- Buttons will appear below div -->
+				<div id="button-box">
+					
+				</div>
+				
+				<!-- button form -->
+				<form>
+					<legend>Add a Gif Button</legend>
+					<div class="form-group">
+						<input type="text" class="form-control" id="btn-input" placeholder="Enter Keyword for Button">
+					</div>
+					<button type="submit" class="btn btn-primary" id="add-it">Add it!</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<p id='footer-text'>Page designed by Steve Graboski, &copy;2016. API: <a href='https://github.com/Giphy/GiphyAPI' target='_blank'>Giphy</a>.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="assets/js/api.js"></script>
+</body>
+</html>
